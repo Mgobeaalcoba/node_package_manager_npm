@@ -1,0 +1,87 @@
+Paquetes que van a estar en nuestro sistema operativo y no en nuestro proyecto solamente
+
+
+09:47:45 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ npm install -g cowsay
+npm ERR! code EACCES
+npm ERR! syscall mkdir
+npm ERR! path /usr/local/lib/node_modules/cowsay
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/cowsay'
+npm ERR!  [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/cowsay'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/cowsay'
+npm ERR! }
+npm ERR!
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR!
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/mgobea/.npm/_logs/2022-12-26T12_48_36_183Z-debug-0.log
+
+09:48:42 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 took 5.5s …
+➜ cowsay
+
+^Z
+[2]  + 16952 suspended  cowsay
+
+09:49:21 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 took 29.4s …
+➜ cowsay javascript
+ ____________
+< javascript >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+09:49:28 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ cowsay Mariano es Crack
+ __________________
+< Mariano es Crack >
+ ------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+09:49:43 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ echo cowsay es un ejemplo de paquete no vive en nuestro proyecto sino que
+vive en nuestro sistema operativo. En mi caso Linux
+cowsay es un ejemplo de paquete no vive en nuestro proyecto sino que vive en nuestro sistema operativo. En mi caso Linux
+
+09:50:27 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ npm list
+npm-init@1.0.0 /home/mgobea/develop/js/npm/npm-init
+├── eslint@8.30.0
+├── moment@2.29.4
+└── react@18.2.0
+
+
+09:50:47 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ echo npm list es para ver que paquetes tengo en mi proyecto
+npm list es para ver que paquetes tengo en mi proyecto
+
+09:51:12 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ npm list -g
+/usr/local/lib
+├── corepack@0.14.2
+├── gitmoji-cli@7.0.3
+├── n@9.0.1
+└── npm@8.19.2
+
+
+09:51:18 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ echo npm list -g se usa para ver mis dependencias glabales instaladas de node en mi sistema operativo.
+npm list -g se usa para ver mis dependencias glabales instaladas de node en mi sistema operativo.
+
+09:52:02 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜

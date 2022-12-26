@@ -1,0 +1,102 @@
+Pasos en consola para iniciar proyecto
+
+09:31:57 👽 with 🤖 mgobea 🐶 in ~/develop/js …
+➜ mkdir npm
+
+09:33:19 👽 with 🤖 mgobea 🐶 in ~/develop/js …
+➜ cd npm
+
+09:33:27 👽 with 🤖 mgobea 🐶 in develop/js/npm …
+➜ mkdir npm-init
+
+09:33:43 👽 with 🤖 mgobea 🐶 in develop/js/npm …
+➜ cd npm-init
+
+09:33:51 👽 with 🤖 mgobea 🐶 in js/npm/npm-init …
+➜ git init
+Initialized empty Git repository in /home/mgobea/develop/js/npm/npm-init/.git/
+
+09:34:00 👽 with 🤖 mgobea 🐶 in npm-init …
+➜ git branch
+
+[1]  + 8160 suspended  git branch
+
+09:34:20 👽 with 🤖 mgobea 🐶 in npm-init took 3.9s …
+➜ git log
+fatal: your current branch 'master' does not have any commits yet
+
+09:34:33 👽 with 🤖 mgobea 🐶 in npm-init …
+➜ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (npm-init)
+version: (1.0.0)
+description: Proyecto para el curso de npm o Node Package Manager
+entry point: (index.js)
+test command:
+git repository:
+keywords: npm, javascript, node
+author: Mariano Gobea Alcoba <gobeamariano@gmail.com>
+license: (ISC) MIT
+About to write to /home/mgobea/develop/js/npm/npm-init/package.json:
+
+{
+  "name": "npm-init",
+  "version": "1.0.0",
+  "description": "Proyecto para el curso de npm o Node Package Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "javascript",
+    "node"
+  ],
+  "author": "Mariano Gobea Alcoba <gobeamariano@gmail.com>",
+  "license": "MIT"
+}
+
+
+Is this OK? (yes) yes
+
+09:38:00 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 took 3m 15.3s …
+➜ ls
+package.json
+
+09:38:05 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ npm init -y
+Wrote to /home/mgobea/develop/js/npm/npm-init/package.json:
+
+{
+  "name": "npm-init",
+  "version": "1.0.0",
+  "description": "Proyecto para el curso de npm o Node Package Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "javascript",
+    "node"
+  ],
+  "author": "Mariano Gobea Alcoba <gobeamariano@gmail.com>",
+  "license": "MIT"
+}
+
+
+
+09:38:51 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ code .
+
+09:39:02 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 via ⬢ v18.12.1 took 3.1s …
+➜

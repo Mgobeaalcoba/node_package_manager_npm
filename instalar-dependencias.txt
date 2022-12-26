@@ -1,0 +1,46 @@
+09:40:43 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ npm install moment
+
+added 1 package, and audited 2 packages in 806ms
+
+found 0 vulnerabilities
+
+09:41:42 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ echo paquete moment agregado
+paquete moment agregado
+
+09:42:01 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ npm install eslint --save-dev // npm install eslint -D
+
+added 97 packages, and audited 99 packages in 7s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+09:42:59 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 took 7.4s …
+➜ echo con el flag --save-dev le indico que solo voy a usar esta dependencia
+ en mi entorno de desarrollo pero nunca en mi entorno de producción
+con el flag --save-dev le indico que solo voy a usar esta dependencia en mi entorno de desarrollo pero nunca en mi entorno de producción
+
+09:43:31 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ npm install react --save // npm install react -S
+
+added 3 packages, and audited 102 packages in 1s
+
+24 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+09:44:40 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 via ⬢ v18.12.1 …
+➜ echo con el flag --save le detallo que esa dependencia si va a ir a produc
+ción
+con el flag --save le detallo que esa dependencia si va a ir a producción
+
+09:45:03 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ code .
+
+09:45:15 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 took 2.0s …
+➜
