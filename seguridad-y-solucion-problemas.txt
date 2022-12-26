@@ -1,0 +1,1300 @@
+
+16:59:55 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ echo al instalar paquetes node nos avisa los problemas de seguridad que aparecen
+al instalar paquetes node nos avisa los problemas de seguridad que aparecen
+
+17:00:32 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm install
+
+up to date, audited 992 packages in 8s
+
+102 packages are looking for funding
+  run `npm fund` for details
+
+21 vulnerabilities (1 low, 2 moderate, 14 high, 4 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+17:00:45 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 8.7s …
+➜ npm audit
+# npm audit report
+
+ansi-html  <0.0.8
+Severity: high
+Uncontrolled Resource Consumption in ansi-html - https://github.com/advisories/GHSA-whgm-jr23-g3j9
+fix available via `npm audit fix --force`
+Will install webpack-dev-server@3.11.3, which is outside the stated dependency range
+node_modules/ansi-html
+  webpack-dev-server  2.0.0-beta - 4.7.2
+  Depends on vulnerable versions of ansi-html
+  Depends on vulnerable versions of chokidar
+  Depends on vulnerable versions of selfsigned
+  node_modules/webpack-dev-server
+
+ansi-regex  4.0.0 - 4.1.0 || 5.0.0
+Severity: high
+Inefficient Regular Expression Complexity in chalk/ansi-regex - https://github.com/advisories/GHSA-93q8-gq69-wqmw
+Inefficient Regular Expression Complexity in chalk/ansi-regex - https://github.com/advisories/GHSA-93q8-gq69-wqmw
+fix available via `npm audit fix`
+node_modules/ansi-regex
+node_modules/cliui/node_modules/ansi-regex
+node_modules/yargs/node_modules/ansi-regex
+
+async  2.0.0 - 2.6.3
+Severity: high
+Prototype Pollution in async - https://github.com/advisories/GHSA-fwr7-v2mv-hh25
+fix available via `npm audit fix`
+node_modules/async
+
+decode-uri-component  <0.2.1
+decode-uri-component vulnerable to Denial of Service (DoS) - https://github.com/advisories/GHSA-w573-4hg7-7wgq
+fix available via `npm audit fix`
+node_modules/decode-uri-component
+
+eventsource  <1.1.1
+Severity: critical
+Exposure of Sensitive Information in eventsource - https://github.com/advisories/GHSA-6h5x-7c5m-7cr7
+fix available via `npm audit fix`
+node_modules/eventsource
+
+express  <=4.17.2 || 5.0.0-alpha.1 - 5.0.0-alpha.8
+Severity: high
+qs vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-hrpp-h998-j3pp
+Depends on vulnerable versions of body-parser
+Depends on vulnerable versions of qs
+fix available via `npm audit fix`
+node_modules/express
+
+follow-redirects  <=1.14.7
+Severity: high
+Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects - https://github.com/advisories/GHSA-pw2r-vq6v-hr8c
+Exposure of sensitive information in follow-redirects - https://github.com/advisories/GHSA-74fj-2j2h-c42q
+fix available via `npm audit fix`
+node_modules/follow-redirects
+
+glob-parent  <5.1.2
+Severity: high
+glob-parent before 5.1.2 vulnerable to Regular Expression Denial of Service in enclosure regex - https://github.com/advisories/GHSA-ww39-953v-wcq6
+fix available via `npm audit fix --force`
+Will install webpack-dev-server@3.11.3, which is outside the stated dependency range
+node_modules/chokidar/node_modules/glob-parent
+  chokidar  1.0.0-rc1 - 2.1.8
+  Depends on vulnerable versions of glob-parent
+  node_modules/chokidar
+
+loader-utils  <=1.4.1
+Severity: critical
+Prototype pollution in webpack loader-utils - https://github.com/advisories/GHSA-76p3-8jx3-jpfq
+loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable - https://github.com/advisories/GHSA-3rfm-jhwj-7488
+loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) - https://github.com/advisories/GHSA-hhq3-ff78-jv3g
+fix available via `npm audit fix`
+node_modules/loader-utils
+
+minimatch  <3.0.5
+Severity: high
+minimatch ReDoS vulnerability - https://github.com/advisories/GHSA-f8q6-p94x-37v3
+fix available via `npm audit fix`
+node_modules/minimatch
+
+minimist  <1.2.6
+Severity: critical
+Prototype Pollution in minimist - https://github.com/advisories/GHSA-xvch-5gv4-984h
+fix available via `npm audit fix`
+node_modules/minimist
+
+nanoid  3.0.0 - 3.1.30
+Severity: moderate
+Exposure of Sensitive Information to an Unauthorized Actor in nanoid - https://github.com/advisories/GHSA-qrpm-p2h7-hrv2
+fix available via `npm audit fix`
+node_modules/nanoid
+
+node-forge  <=1.2.1
+Severity: high
+Open Redirect in node-forge - https://github.com/advisories/GHSA-8fr3-hfg3-gpgp
+Prototype Pollution in node-forge debug API. - https://github.com/advisories/GHSA-5rrq-pxf6-6jx5
+Improper Verification of Cryptographic Signature in `node-forge` - https://github.com/advisories/GHSA-2r2c-g63r-vccr
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-x4jg-mjrx-434g
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-cfm4-qjh2-4765
+URL parsing in node-forge could lead to undesired behavior. - https://github.com/advisories/GHSA-gf8q-jrpm-jvxq
+fix available via `npm audit fix --force`
+Will install webpack-dev-server@3.11.3, which is outside the stated dependency range
+node_modules/node-forge
+  selfsigned  1.1.1 - 1.10.14
+  Depends on vulnerable versions of node-forge
+  node_modules/selfsigned
+
+nth-check  <2.0.1
+Severity: high
+Inefficient Regular Expression Complexity in nth-check - https://github.com/advisories/GHSA-rp65-9cf3-cjxr
+fix available via `npm audit fix`
+node_modules/nth-check
+
+qs  6.7.0 - 6.7.2
+Severity: high
+qs vulnerable to Prototype Pollution - https://github.com/advisories/GHSA-hrpp-h998-j3pp
+fix available via `npm audit fix`
+node_modules/qs
+  body-parser  1.19.0
+  Depends on vulnerable versions of qs
+  node_modules/body-parser
+
+terser  >=5.0.0 <5.14.2 || <4.8.1
+Severity: high
+Terser insecure use of regular expressions before v4.8.1 and v5.14.2 leads to ReDoS - https://github.com/advisories/GHSA-4wf5-vphf-c2xc
+Terser insecure use of regular expressions before v4.8.1 and v5.14.2 leads to ReDoS - https://github.com/advisories/GHSA-4wf5-vphf-c2xc
+fix available via `npm audit fix`
+node_modules/terser
+node_modules/terser-webpack-plugin/node_modules/terser
+
+url-parse  <=1.5.8
+Severity: critical
+Incorrect hostname / protocol due to unstripped leading control characters. - https://github.com/advisories/GHSA-jf5r-8hm2-f872
+Authorization Bypass Through User-Controlled Key in url-parse - https://github.com/advisories/GHSA-hgjh-723h-mx2j
+Authorization bypass in url-parse - https://github.com/advisories/GHSA-rqff-837h-mm52
+Incorrect returned href via an '@' sign but no user info and hostname - https://github.com/advisories/GHSA-8v38-pw62-9cw2
+fix available via `npm audit fix`
+node_modules/url-parse
+
+21 vulnerabilities (1 low, 2 moderate, 14 high, 4 critical)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues, run:
+  npm audit fix --force
+
+17:01:11 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜
+
+17:01:11 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm audit --json
+{
+  "auditReportVersion": 2,
+  "vulnerabilities": {
+    "ansi-html": {
+      "name": "ansi-html",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1082045,
+          "name": "ansi-html",
+          "dependency": "ansi-html",
+          "title": "Uncontrolled Resource Consumption in ansi-html",
+          "url": "https://github.com/advisories/GHSA-whgm-jr23-g3j9",
+          "severity": "high",
+          "cwe": [
+            "CWE-400"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": "<0.0.8"
+        }
+      ],
+      "effects": [
+        "webpack-dev-server"
+      ],
+      "range": "<0.0.8",
+      "nodes": [
+        "node_modules/ansi-html"
+      ],
+      "fixAvailable": {
+        "name": "webpack-dev-server",
+        "version": "3.11.3",
+        "isSemVerMajor": false
+      }
+    },
+    "ansi-regex": {
+      "name": "ansi-regex",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1084696,
+          "name": "ansi-regex",
+          "dependency": "ansi-regex",
+          "title": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+          "url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw",
+          "severity": "high",
+          "cwe": [
+            "CWE-697",
+            "CWE-1333"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": ">=4.0.0 <4.1.1"
+        },
+        {
+          "source": 1084697,
+          "name": "ansi-regex",
+          "dependency": "ansi-regex",
+          "title": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+          "url": "https://github.com/advisories/GHSA-93q8-gq69-wqmw",
+          "severity": "high",
+          "cwe": [
+            "CWE-697",
+            "CWE-1333"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": ">=5.0.0 <5.0.1"
+        }
+      ],
+      "effects": [],
+      "range": "4.0.0 - 4.1.0 || 5.0.0",
+      "nodes": [
+        "node_modules/ansi-regex",
+        "node_modules/cliui/node_modules/ansi-regex",
+        "node_modules/yargs/node_modules/ansi-regex"
+      ],
+      "fixAvailable": true
+    },
+    "async": {
+      "name": "async",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1070440,
+          "name": "async",
+          "dependency": "async",
+          "title": "Prototype Pollution in async",
+          "url": "https://github.com/advisories/GHSA-fwr7-v2mv-hh25",
+          "severity": "high",
+          "cwe": [
+            "CWE-1321"
+          ],
+          "cvss": {
+            "score": 7.8,
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "range": ">=2.0.0 <2.6.4"
+        }
+      ],
+      "effects": [],
+      "range": "2.0.0 - 2.6.3",
+      "nodes": [
+        "node_modules/async"
+      ],
+      "fixAvailable": true
+    },
+    "body-parser": {
+      "name": "body-parser",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "qs"
+      ],
+      "effects": [],
+      "range": "1.19.0",
+      "nodes": [
+        "node_modules/body-parser"
+      ],
+      "fixAvailable": true
+    },
+    "chokidar": {
+      "name": "chokidar",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        "glob-parent"
+      ],
+      "effects": [
+        "webpack-dev-server"
+      ],
+      "range": "1.0.0-rc1 - 2.1.8",
+      "nodes": [
+        "node_modules/chokidar"
+      ],
+      "fixAvailable": {
+        "name": "webpack-dev-server",
+        "version": "3.11.3",
+        "isSemVerMajor": false
+      }
+    },
+    "decode-uri-component": {
+      "name": "decode-uri-component",
+      "severity": "low",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1085062,
+          "name": "decode-uri-component",
+          "dependency": "decode-uri-component",
+          "title": "decode-uri-component vulnerable to Denial of Service (DoS)",
+          "url": "https://github.com/advisories/GHSA-w573-4hg7-7wgq",
+          "severity": "low",
+          "cwe": [
+            "CWE-20"
+          ],
+          "cvss": {
+            "score": 0,
+            "vectorString": null
+          },
+          "range": "<0.2.1"
+        }
+      ],
+      "effects": [],
+      "range": "<0.2.1",
+      "nodes": [
+        "node_modules/decode-uri-component"
+      ],
+      "fixAvailable": true
+    },
+    "eventsource": {
+      "name": "eventsource",
+      "severity": "critical",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1085188,
+          "name": "eventsource",
+          "dependency": "eventsource",
+          "title": "Exposure of Sensitive Information in eventsource",
+          "url": "https://github.com/advisories/GHSA-6h5x-7c5m-7cr7",
+          "severity": "critical",
+          "cwe": [
+            "CWE-200"
+          ],
+          "cvss": {
+            "score": 9.3,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N"
+          },
+          "range": "<1.1.1"
+        }
+      ],
+      "effects": [],
+      "range": "<1.1.1",
+      "nodes": [
+        "node_modules/eventsource"
+      ],
+      "fixAvailable": true
+    },
+    "express": {
+      "name": "express",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1085141,
+          "name": "express",
+          "dependency": "express",
+          "title": "qs vulnerable to Prototype Pollution",
+          "url": "https://github.com/advisories/GHSA-hrpp-h998-j3pp",
+          "severity": "high",
+          "cwe": [
+            "CWE-1321"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": "<4.17.3"
+        },
+        "body-parser",
+        "qs"
+      ],
+      "effects": [],
+      "range": "<=4.17.2 || 5.0.0-alpha.1 - 5.0.0-alpha.8",
+      "nodes": [
+        "node_modules/express"
+      ],
+      "fixAvailable": true
+    },
+    "follow-redirects": {
+      "name": "follow-redirects",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1067407,
+          "name": "follow-redirects",
+          "dependency": "follow-redirects",
+          "title": "Exposure of Sensitive Information to an Unauthorized Actor in follow-redirects",
+          "url": "https://github.com/advisories/GHSA-pw2r-vq6v-hr8c",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-200"
+          ],
+          "cvss": {
+            "score": 5.9,
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+          },
+          "range": "<1.14.8"
+        },
+        {
+          "source": 1084497,
+          "name": "follow-redirects",
+          "dependency": "follow-redirects",
+          "title": "Exposure of sensitive information in follow-redirects",
+          "url": "https://github.com/advisories/GHSA-74fj-2j2h-c42q",
+          "severity": "high",
+          "cwe": [
+            "CWE-359"
+          ],
+          "cvss": {
+            "score": 8,
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+          },
+          "range": "<1.14.7"
+        }
+      ],
+      "effects": [],
+      "range": "<=1.14.7",
+      "nodes": [
+        "node_modules/follow-redirects"
+      ],
+      "fixAvailable": true
+    },
+    "glob-parent": {
+      "name": "glob-parent",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1081884,
+          "name": "glob-parent",
+          "dependency": "glob-parent",
+          "title": "glob-parent before 5.1.2 vulnerable to Regular Expression Denial of Service in enclosure regex",
+          "url": "https://github.com/advisories/GHSA-ww39-953v-wcq6",
+          "severity": "high",
+          "cwe": [
+            "CWE-400"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": "<5.1.2"
+        }
+      ],
+      "effects": [
+        "chokidar"
+      ],
+      "range": "<5.1.2",
+      "nodes": [
+        "node_modules/chokidar/node_modules/glob-parent"
+      ],
+      "fixAvailable": {
+        "name": "webpack-dev-server",
+        "version": "3.11.3",
+        "isSemVerMajor": false
+      }
+    },
+    "loader-utils": {
+      "name": "loader-utils",
+      "severity": "critical",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1084924,
+          "name": "loader-utils",
+          "dependency": "loader-utils",
+          "title": "Prototype pollution in webpack loader-utils",
+          "url": "https://github.com/advisories/GHSA-76p3-8jx3-jpfq",
+          "severity": "critical",
+          "cwe": [
+            "CWE-1321"
+          ],
+          "cvss": {
+            "score": 9.8,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          "range": "<1.4.1"
+        },
+        {
+          "source": 1084993,
+          "name": "loader-utils",
+          "dependency": "loader-utils",
+          "title": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS) via url variable",
+          "url": "https://github.com/advisories/GHSA-3rfm-jhwj-7488",
+          "severity": "high",
+          "cwe": [
+            "CWE-400"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": ">=1.0.0 <1.4.2"
+        },
+        {
+          "source": 1085034,
+          "name": "loader-utils",
+          "dependency": "loader-utils",
+          "title": "loader-utils is vulnerable to Regular Expression Denial of Service (ReDoS)",
+          "url": "https://github.com/advisories/GHSA-hhq3-ff78-jv3g",
+          "severity": "high",
+          "cwe": [
+            "CWE-400"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": ">=1.0.0 <1.4.2"
+        }
+      ],
+      "effects": [],
+      "range": "<=1.4.1",
+      "nodes": [
+        "node_modules/loader-utils"
+      ],
+      "fixAvailable": true
+    },
+    "minimatch": {
+      "name": "minimatch",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1084765,
+          "name": "minimatch",
+          "dependency": "minimatch",
+          "title": "minimatch ReDoS vulnerability",
+          "url": "https://github.com/advisories/GHSA-f8q6-p94x-37v3",
+          "severity": "high",
+          "cwe": [
+            "CWE-400"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": "<3.0.5"
+        }
+      ],
+      "effects": [],
+      "range": "<3.0.5",
+      "nodes": [
+        "node_modules/minimatch"
+      ],
+      "fixAvailable": true
+    },
+    "minimist": {
+      "name": "minimist",
+      "severity": "critical",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1067342,
+          "name": "minimist",
+          "dependency": "minimist",
+          "title": "Prototype Pollution in minimist",
+          "url": "https://github.com/advisories/GHSA-xvch-5gv4-984h",
+          "severity": "critical",
+          "cwe": [
+            "CWE-1321"
+          ],
+          "cvss": {
+            "score": 9.8,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          },
+          "range": "<1.2.6"
+        }
+      ],
+      "effects": [],
+      "range": "<1.2.6",
+      "nodes": [
+        "node_modules/minimist"
+      ],
+      "fixAvailable": true
+    },
+    "nanoid": {
+      "name": "nanoid",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1081481,
+          "name": "nanoid",
+          "dependency": "nanoid",
+          "title": "Exposure of Sensitive Information to an Unauthorized Actor in nanoid",
+          "url": "https://github.com/advisories/GHSA-qrpm-p2h7-hrv2",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-200"
+          ],
+          "cvss": {
+            "score": 5.5,
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+          },
+          "range": ">=3.0.0 <3.1.31"
+        }
+      ],
+      "effects": [],
+      "range": "3.0.0 - 3.1.30",
+      "nodes": [
+        "node_modules/nanoid"
+      ],
+      "fixAvailable": true
+    },
+    "node-forge": {
+      "name": "node-forge",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1067452,
+          "name": "node-forge",
+          "dependency": "node-forge",
+          "title": "Open Redirect in node-forge",
+          "url": "https://github.com/advisories/GHSA-8fr3-hfg3-gpgp",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-601"
+          ],
+          "cvss": {
+            "score": 0,
+            "vectorString": null
+          },
+          "range": "<1.0.0"
+        },
+        {
+          "source": 1067471,
+          "name": "node-forge",
+          "dependency": "node-forge",
+          "title": "Prototype Pollution in node-forge debug API.",
+          "url": "https://github.com/advisories/GHSA-5rrq-pxf6-6jx5",
+          "severity": "low",
+          "cwe": [
+            "CWE-1321"
+          ],
+          "cvss": {
+            "score": 0,
+            "vectorString": null
+          },
+          "range": "<1.0.0"
+        },
+        {
+          "source": 1070354,
+          "name": "node-forge",
+          "dependency": "node-forge",
+          "title": "Improper Verification of Cryptographic Signature in `node-forge`",
+          "url": "https://github.com/advisories/GHSA-2r2c-g63r-vccr",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-347"
+          ],
+          "cvss": {
+            "score": 5.3,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "range": "<1.3.0"
+        },
+        {
+          "source": 1070355,
+          "name": "node-forge",
+          "dependency": "node-forge",
+          "title": "Improper Verification of Cryptographic Signature in node-forge",
+          "url": "https://github.com/advisories/GHSA-x4jg-mjrx-434g",
+          "severity": "high",
+          "cwe": [
+            "CWE-347"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+          },
+          "range": "<1.3.0"
+        },
+        {
+          "source": 1070356,
+          "name": "node-forge",
+          "dependency": "node-forge",
+          "title": "Improper Verification of Cryptographic Signature in node-forge",
+          "url": "https://github.com/advisories/GHSA-cfm4-qjh2-4765",
+          "severity": "high",
+          "cwe": [
+            "CWE-347"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+          },
+          "range": "<1.3.0"
+        },
+        {
+          "source": 1081840,
+          "name": "node-forge",
+          "dependency": "node-forge",
+          "title": "URL parsing in node-forge could lead to undesired behavior.",
+          "url": "https://github.com/advisories/GHSA-gf8q-jrpm-jvxq",
+          "severity": "low",
+          "cwe": [
+            "CWE-601"
+          ],
+          "cvss": {
+            "score": 0,
+            "vectorString": null
+          },
+          "range": "<1.0.0"
+        }
+      ],
+      "effects": [
+        "selfsigned"
+      ],
+      "range": "<=1.2.1",
+      "nodes": [
+        "node_modules/node-forge"
+      ],
+      "fixAvailable": {
+        "name": "webpack-dev-server",
+        "version": "3.11.3",
+        "isSemVerMajor": false
+      }
+    },
+    "nth-check": {
+      "name": "nth-check",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1070415,
+          "name": "nth-check",
+          "dependency": "nth-check",
+          "title": "Inefficient Regular Expression Complexity in nth-check",
+          "url": "https://github.com/advisories/GHSA-rp65-9cf3-cjxr",
+          "severity": "high",
+          "cwe": [
+            "CWE-1333"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": "<2.0.1"
+        }
+      ],
+      "effects": [],
+      "range": "<2.0.1",
+      "nodes": [
+        "node_modules/nth-check"
+      ],
+      "fixAvailable": true
+    },
+    "qs": {
+      "name": "qs",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1085137,
+          "name": "qs",
+          "dependency": "qs",
+          "title": "qs vulnerable to Prototype Pollution",
+          "url": "https://github.com/advisories/GHSA-hrpp-h998-j3pp",
+          "severity": "high",
+          "cwe": [
+            "CWE-1321"
+          ],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": ">=6.7.0 <6.7.3"
+        }
+      ],
+      "effects": [
+        "body-parser",
+        "express"
+      ],
+      "range": "6.7.0 - 6.7.2",
+      "nodes": [
+        "node_modules/qs"
+      ],
+      "fixAvailable": true
+    },
+    "selfsigned": {
+      "name": "selfsigned",
+      "severity": "moderate",
+      "isDirect": false,
+      "via": [
+        "node-forge"
+      ],
+      "effects": [
+        "webpack-dev-server"
+      ],
+      "range": "1.1.1 - 1.10.14",
+      "nodes": [
+        "node_modules/selfsigned"
+      ],
+      "fixAvailable": {
+        "name": "webpack-dev-server",
+        "version": "3.11.3",
+        "isSemVerMajor": false
+      }
+    },
+    "terser": {
+      "name": "terser",
+      "severity": "high",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1081698,
+          "name": "terser",
+          "dependency": "terser",
+          "title": "Terser insecure use of regular expressions before v4.8.1 and v5.14.2 leads to ReDoS",
+          "url": "https://github.com/advisories/GHSA-4wf5-vphf-c2xc",
+          "severity": "high",
+          "cwe": [],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": ">=5.0.0 <5.14.2"
+        },
+        {
+          "source": 1081699,
+          "name": "terser",
+          "dependency": "terser",
+          "title": "Terser insecure use of regular expressions before v4.8.1 and v5.14.2 leads to ReDoS",
+          "url": "https://github.com/advisories/GHSA-4wf5-vphf-c2xc",
+          "severity": "high",
+          "cwe": [],
+          "cvss": {
+            "score": 7.5,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          "range": "<4.8.1"
+        }
+      ],
+      "effects": [],
+      "range": ">=5.0.0 <5.14.2 || <4.8.1",
+      "nodes": [
+        "node_modules/terser",
+        "node_modules/terser-webpack-plugin/node_modules/terser"
+      ],
+      "fixAvailable": true
+    },
+    "url-parse": {
+      "name": "url-parse",
+      "severity": "critical",
+      "isDirect": false,
+      "via": [
+        {
+          "source": 1067315,
+          "name": "url-parse",
+          "dependency": "url-parse",
+          "title": "Incorrect hostname / protocol due to unstripped leading control characters.",
+          "url": "https://github.com/advisories/GHSA-jf5r-8hm2-f872",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-639"
+          ],
+          "cvss": {
+            "score": 6.5,
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+          },
+          "range": "<1.5.9"
+        },
+        {
+          "source": 1067316,
+          "name": "url-parse",
+          "dependency": "url-parse",
+          "title": "Authorization Bypass Through User-Controlled Key in url-parse",
+          "url": "https://github.com/advisories/GHSA-hgjh-723h-mx2j",
+          "severity": "critical",
+          "cwe": [
+            "CWE-639"
+          ],
+          "cvss": {
+            "score": 9.1,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+          },
+          "range": "<1.5.8"
+        },
+        {
+          "source": 1067405,
+          "name": "url-parse",
+          "dependency": "url-parse",
+          "title": "Authorization bypass in url-parse",
+          "url": "https://github.com/advisories/GHSA-rqff-837h-mm52",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-639"
+          ],
+          "cvss": {
+            "score": 5.3,
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          },
+          "range": "<1.5.6"
+        },
+        {
+          "source": 1070014,
+          "name": "url-parse",
+          "dependency": "url-parse",
+          "title": "Incorrect returned href via an '@' sign but no user info and hostname",
+          "url": "https://github.com/advisories/GHSA-8v38-pw62-9cw2",
+          "severity": "moderate",
+          "cwe": [
+            "CWE-639"
+          ],
+          "cvss": {
+            "score": 6.5,
+            "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+          },
+          "range": "<1.5.7"
+        }
+      ],
+      "effects": [],
+      "range": "<=1.5.8",
+      "nodes": [
+        "node_modules/url-parse"
+      ],
+      "fixAvailable": true
+    },
+    "webpack-dev-server": {
+      "name": "webpack-dev-server",
+      "severity": "high",
+      "isDirect": true,
+      "via": [
+        "ansi-html",
+        "chokidar",
+        "selfsigned"
+      ],
+      "effects": [],
+      "range": "2.0.0-beta - 4.7.2",
+      "nodes": [
+        "node_modules/webpack-dev-server"
+      ],
+      "fixAvailable": {
+        "name": "webpack-dev-server",
+        "version": "3.11.3",
+        "isSemVerMajor": false
+      }
+    }
+  },
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 1,
+      "moderate": 2,
+      "high": 14,
+      "critical": 4,
+      "total": 21
+    },
+    "dependencies": {
+      "prod": 774,
+      "dev": 218,
+      "optional": 0,
+      "peer": 1,
+      "peerOptional": 0,
+      "total": 991
+    }
+  }
+}
+
+
+17:02:34 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm audit fix
+
+added 17 packages, removed 3 packages, changed 49 packages, and audited 1006 packages in 13s
+
+105 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+ansi-html  <0.0.8
+Severity: high
+Uncontrolled Resource Consumption in ansi-html - https://github.com/advisories/GHSA-whgm-jr23-g3j9
+fix available via `npm audit fix --force`
+Will install webpack-dev-server@3.11.3, which is outside the stated dependency range
+node_modules/ansi-html
+  webpack-dev-server  2.0.0-beta - 4.7.2
+  Depends on vulnerable versions of ansi-html
+  Depends on vulnerable versions of chokidar
+  Depends on vulnerable versions of selfsigned
+  node_modules/webpack-dev-server
+
+glob-parent  <5.1.2
+Severity: high
+glob-parent before 5.1.2 vulnerable to Regular Expression Denial of Service in enclosure regex - https://github.com/advisories/GHSA-ww39-953v-wcq6
+fix available via `npm audit fix --force`
+Will install webpack-dev-server@3.11.3, which is outside the stated dependency range
+node_modules/chokidar/node_modules/glob-parent
+  chokidar  1.0.0-rc1 - 2.1.8
+  Depends on vulnerable versions of glob-parent
+  node_modules/chokidar
+
+node-forge  <=1.2.1
+Severity: high
+Open Redirect in node-forge - https://github.com/advisories/GHSA-8fr3-hfg3-gpgp
+Prototype Pollution in node-forge debug API. - https://github.com/advisories/GHSA-5rrq-pxf6-6jx5
+Improper Verification of Cryptographic Signature in `node-forge` - https://github.com/advisories/GHSA-2r2c-g63r-vccr
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-x4jg-mjrx-434g
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-cfm4-qjh2-4765
+URL parsing in node-forge could lead to undesired behavior. - https://github.com/advisories/GHSA-gf8q-jrpm-jvxq
+fix available via `npm audit fix --force`
+Will install webpack-dev-server@3.11.3, which is outside the stated dependency range
+node_modules/node-forge
+  selfsigned  1.1.1 - 1.10.14
+  Depends on vulnerable versions of node-forge
+  node_modules/selfsigned
+
+6 vulnerabilities (1 moderate, 5 high)
+
+To address all issues, run:
+  npm audit fix --force
+
+17:03:11 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 12.9s …
+➜ npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm WARN audit Updating webpack-dev-server to 3.11.3, which is outside your stated dependency range.
+
+added 1 package, removed 1 package, changed 1 package, and audited 1006 packages in 7s
+
+105 packages are looking for funding
+  run `npm fund` for details
+
+# npm audit report
+
+glob-parent  <5.1.2
+Severity: high
+glob-parent before 5.1.2 vulnerable to Regular Expression Denial of Service in enclosure regex - https://github.com/advisories/GHSA-ww39-953v-wcq6
+fix available via `npm audit fix --force`
+Will install webpack-dev-server@4.11.1, which is a breaking change
+node_modules/chokidar/node_modules/glob-parent
+  chokidar  1.0.0-rc1 - 2.1.8
+  Depends on vulnerable versions of glob-parent
+  node_modules/chokidar
+    webpack-dev-server  2.0.0-beta - 4.7.2
+    Depends on vulnerable versions of chokidar
+    Depends on vulnerable versions of selfsigned
+    node_modules/webpack-dev-server
+
+node-forge  <=1.2.1
+Severity: high
+Open Redirect in node-forge - https://github.com/advisories/GHSA-8fr3-hfg3-gpgp
+Prototype Pollution in node-forge debug API. - https://github.com/advisories/GHSA-5rrq-pxf6-6jx5
+Improper Verification of Cryptographic Signature in `node-forge` - https://github.com/advisories/GHSA-2r2c-g63r-vccr
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-x4jg-mjrx-434g
+Improper Verification of Cryptographic Signature in node-forge - https://github.com/advisories/GHSA-cfm4-qjh2-4765
+URL parsing in node-forge could lead to undesired behavior. - https://github.com/advisories/GHSA-gf8q-jrpm-jvxq
+fix available via `npm audit fix --force`
+Will install webpack-dev-server@4.11.1, which is a breaking change
+node_modules/node-forge
+  selfsigned  1.1.1 - 1.10.14
+  Depends on vulnerable versions of node-forge
+  node_modules/selfsigned
+
+5 vulnerabilities (1 moderate, 4 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+
+17:04:43 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm list
+react-base@1.0.0 /home/mgobea/develop/js/npm/react-base
+├── @babel/core@7.15.0
+├── @babel/plugin-transform-runtime@7.15.0
+├── @babel/preset-env@7.15.0
+├── @babel/preset-react@7.14.5
+├── babel-eslint@10.1.0
+├── babel-loader@8.2.2
+├── css-loader@6.2.0
+├── eslint-config-airbnb@18.2.1
+├── eslint-config-prettier@8.3.0
+├── eslint-plugin-import@2.24.0
+├── eslint-plugin-jsx-a11y@6.4.1
+├── eslint-plugin-prettier@3.4.0
+├── eslint-plugin-react@7.24.0
+├── eslint@7.32.0
+├── html-loader@2.1.2
+├── html-webpack-plugin@5.3.2
+├── husky@7.0.1
+├── lint-staged@11.1.2
+├── mini-css-extract-plugin@2.2.0
+├── prettier@2.3.2
+├── react-dom@18.2.0
+├── react@18.2.0
+├── style-loader@3.2.1
+├── stylus-loader@6.1.0
+├── stylus@0.54.8
+├── webpack-cli@4.7.2
+├── webpack-dev-server@3.11.3
+└── webpack@5.50.0
+
+
+17:04:48 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm install webpack@latest
+
+changed 10 packages, and audited 1006 packages in 3s
+
+105 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (1 moderate, 4 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+17:05:08 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 2.8s …
+➜ npm list
+react-base@1.0.0 /home/mgobea/develop/js/npm/react-base
+├── @babel/core@7.15.0
+├── @babel/plugin-transform-runtime@7.15.0
+├── @babel/preset-env@7.15.0
+├── @babel/preset-react@7.14.5
+├── babel-eslint@10.1.0
+├── babel-loader@8.2.2
+├── css-loader@6.2.0
+├── eslint-config-airbnb@18.2.1
+├── eslint-config-prettier@8.3.0
+├── eslint-plugin-import@2.24.0
+├── eslint-plugin-jsx-a11y@6.4.1
+├── eslint-plugin-prettier@3.4.0
+├── eslint-plugin-react@7.24.0
+├── eslint@7.32.0
+├── html-loader@2.1.2
+├── html-webpack-plugin@5.3.2
+├── husky@7.0.1
+├── lint-staged@11.1.2
+├── mini-css-extract-plugin@2.2.0
+├── prettier@2.3.2
+├── react-dom@18.2.0
+├── react@18.2.0
+├── style-loader@3.2.1
+├── stylus-loader@6.1.0
+├── stylus@0.54.8
+├── webpack-cli@4.7.2
+├── webpack-dev-server@3.11.3
+└── webpack@5.75.0
+
+
+17:05:12 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜
+
+
+17:04:43 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm list
+react-base@1.0.0 /home/mgobea/develop/js/npm/react-base
+├── @babel/core@7.15.0
+├── @babel/plugin-transform-runtime@7.15.0
+├── @babel/preset-env@7.15.0
+├── @babel/preset-react@7.14.5
+├── babel-eslint@10.1.0
+├── babel-loader@8.2.2
+├── css-loader@6.2.0
+├── eslint-config-airbnb@18.2.1
+├── eslint-config-prettier@8.3.0
+├── eslint-plugin-import@2.24.0
+├── eslint-plugin-jsx-a11y@6.4.1
+├── eslint-plugin-prettier@3.4.0
+├── eslint-plugin-react@7.24.0
+├── eslint@7.32.0
+├── html-loader@2.1.2
+├── html-webpack-plugin@5.3.2
+├── husky@7.0.1
+├── lint-staged@11.1.2
+├── mini-css-extract-plugin@2.2.0
+├── prettier@2.3.2
+├── react-dom@18.2.0
+├── react@18.2.0
+├── style-loader@3.2.1
+├── stylus-loader@6.1.0
+├── stylus@0.54.8
+├── webpack-cli@4.7.2
+├── webpack-dev-server@3.11.3
+└── webpack@5.50.0
+
+
+17:04:48 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm install webpack@latest
+
+changed 10 packages, and audited 1006 packages in 3s
+
+105 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (1 moderate, 4 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+17:05:08 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 2.8s …
+➜ npm list
+react-base@1.0.0 /home/mgobea/develop/js/npm/react-base
+├── @babel/core@7.15.0
+├── @babel/plugin-transform-runtime@7.15.0
+├── @babel/preset-env@7.15.0
+├── @babel/preset-react@7.14.5
+├── babel-eslint@10.1.0
+├── babel-loader@8.2.2
+├── css-loader@6.2.0
+├── eslint-config-airbnb@18.2.1
+├── eslint-config-prettier@8.3.0
+├── eslint-plugin-import@2.24.0
+├── eslint-plugin-jsx-a11y@6.4.1
+├── eslint-plugin-prettier@3.4.0
+├── eslint-plugin-react@7.24.0
+├── eslint@7.32.0
+├── html-loader@2.1.2
+├── html-webpack-plugin@5.3.2
+├── husky@7.0.1
+├── lint-staged@11.1.2
+├── mini-css-extract-plugin@2.2.0
+├── prettier@2.3.2
+├── react-dom@18.2.0
+├── react@18.2.0
+├── style-loader@3.2.1
+├── stylus-loader@6.1.0
+├── stylus@0.54.8
+├── webpack-cli@4.7.2
+├── webpack-dev-server@3.11.3
+└── webpack@5.75.0
+
+
+17:05:12 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm install webpack-cli@latest
+
+added 1 package, changed 7 packages, and audited 1007 packages in 7s
+
+106 packages are looking for funding
+  run `npm fund` for details
+
+5 vulnerabilities (1 moderate, 4 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+17:05:58 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 7.7s …
+➜ npm install webpack-dev-server@latest
+
+added 36 packages, removed 256 packages, changed 25 packages, and audited 787 packages in 13s
+
+110 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+17:06:24 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 13.8s …
+➜ npm audit
+found 0 vulnerabilities
+
+17:06:29 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 2.1s …
+➜ echo problemas resueltos actualizando webpack
+problemas resueltos actualizando webpack
+
+17:06:44 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜

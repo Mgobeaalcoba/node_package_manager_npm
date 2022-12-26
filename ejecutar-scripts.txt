@@ -1,0 +1,62 @@
+Algunos comandos para ejecutar paquetes son: 
+
+Guardar con nombre en package.json los comandos a ejecutar. 
+
+Ejemplo: 
+
+  "scripts": {
+    "start": "node src/index.js",
+    "node": "node src/index.js && node src/index.js"
+  },
+
+Luego en consola los ejecuto así: 
+
+16:37:54 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ npm run start
+
+> npm-init@1.0.0 start
+> node src/index.js
+
+Hola Mundo!
+
+16:38:00 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ npm start
+
+> npm-init@1.0.0 start
+> node src/index.js
+
+Hola Mundo!
+
+16:38:07 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 via ⬢ v18.12.1 …
+➜ npm run node
+
+> npm-init@1.0.0 node
+> node src/index.js && node src/index.js
+
+Hola Mundo!
+Hola Mundo!
+
+16:38:12 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜
+
+Posteriormente puedo ejecutar sin descargar acciones de otros paquetes como por ejemplo React así:
+
+npx create-react-app react-npm
+cd react-npm
+npm react-npm
+
+Esto lo hice a nivel de la carpeta padre de npm-init por lo que allí mismo se armó un proyecto de app llamado:
+react-npm con lo minimo para ver ya una web app funcional
+
+16:38:12 👽 with 🤖 mgobea 🐶 in npm-init is 📦 1.0.0 …
+➜ cd ..
+
+16:39:08 👽 with 🤖 mgobea 🐶 in develop/js/npm …
+➜ ls
+npm-init  react-npm
+
+16:39:11 👽 with 🤖 mgobea 🐶 in develop/js/npm …
+➜ cd react-npm
+
+16:39:14 👽 with 🤖 mgobea 🐶 in react-npm is 📦 0.1.0 …
+➜

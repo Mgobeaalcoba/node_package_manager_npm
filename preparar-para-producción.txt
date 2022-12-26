@@ -1,0 +1,49 @@
+17:13:36 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm run build
+
+> react-base@1.0.0 build
+> webpack --mode production
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+assets by status 137 KiB [cached] 2 assets
+orphan modules 189 bytes [orphan] 1 module
+modules by path ./node_modules/ 141 KiB
+  modules by path ./node_modules/react/ 6.94 KiB
+    ./node_modules/react/index.js 190 bytes [built] [code generated]
+    ./node_modules/react/cjs/react.production.min.js 6.75 KiB [built] [code generated]
+  modules by path ./node_modules/react-dom/ 130 KiB
+    ./node_modules/react-dom/index.js 1.33 KiB [built] [code generated]
+    ./node_modules/react-dom/cjs/react-dom.production.min.js 129 KiB [built] [code generated]
+  modules by path ./node_modules/scheduler/ 4.33 KiB
+    ./node_modules/scheduler/index.js 198 bytes [built] [code generated]
+    ./node_modules/scheduler/cjs/scheduler.production.min.js 4.14 KiB [built] [code generated]
+./src/index.js + 1 modules 380 bytes [built] [code generated]
+
+ERROR in ./src/components/App.jsx 2:0-39
+Module not found: Error: Can't resolve 'stylus-loader' in '/home/mgobea/develop/js/npm/react-base'
+resolve 'stylus-loader' in '/home/mgobea/develop/js/npm/react-base'
+  Parsed request is a module
+  using description file: /home/mgobea/develop/js/npm/react-base/package.json (relative path: .)
+    resolve as module
+      looking for modules in /home/mgobea/develop/js/npm/react-base/node_modules
+        single file module
+          using description file: /home/mgobea/develop/js/npm/react-base/package.json (relative path: ./node_modules/stylus-loader)
+            no extension
+              /home/mgobea/develop/js/npm/react-base/node_modules/stylus-loader doesn't exist
+            .js
+              /home/mgobea/develop/js/npm/react-base/node_modules/stylus-loader.js doesn't exist
+        /home/mgobea/develop/js/npm/react-base/node_modules/stylus-loader doesn't exist
+      /home/mgobea/develop/js/npm/node_modules doesn't exist or is not a directory
+      /home/mgobea/develop/js/node_modules doesn't exist or is not a directory
+      /home/mgobea/develop/node_modules doesn't exist or is not a directory
+      /home/mgobea/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/index.js 3:0-35 4:50-53
+
+webpack 5.75.0 compiled with 1 error in 2530 ms
+
+17:14:02 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 3.4s …
+➜

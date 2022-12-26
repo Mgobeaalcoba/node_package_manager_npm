@@ -1,0 +1,49 @@
+
+17:07:07 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm uninstall webpack-dev-server
+
+removed 161 packages, and audited 626 packages in 2s
+
+99 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+17:07:50 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 2.5s …
+➜ echo desinstalado webpack-dev-server
+desinstalado webpack-dev-server
+
+17:08:07 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ echo otra opción sería eliminarlo del archivo package.json
+otra opción sería eliminarlo del archivo package.json
+
+17:08:23 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ echo luego de ello debo eliminar todos mis paquetes de node_modules y volver a instalar las dependencias de mi proyecto vía npm install ya con las elimina
+das afuera
+luego de ello debo eliminar todos mis paquetes de node_modules y volver a instalar las dependencias de mi proyecto vía npm install ya con las eliminadas afuera
+
+17:10:08 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ rm -rf node_modules
+
+17:10:27 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ echo el comando anterior elimina node_modules por lo que debo volver a instalarlo con las novedades de las dependencias que ya no quiero.
+el comando anterior elimina node_modules por lo que debo volver a instalarlo con las novedades de las dependencias que ya no quiero.
+
+17:11:02 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜ npm install
+npm WARN deprecated babel-eslint@10.1.0: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+
+added 597 packages, and audited 598 packages in 7s
+
+95 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+17:11:15 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 took 7.4s …
+➜ echo ahí volvió a aparecer node_modules sin las paquetes que he decidido eliminar.
+ahí volvió a aparecer node_modules sin las paquetes que he decidido eliminar.
+
+17:11:39 👽 with 🤖 mgobea 🐶 in react-base is 📦 1.0.0 …
+➜
+
